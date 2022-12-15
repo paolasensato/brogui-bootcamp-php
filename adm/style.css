@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial;
+    font-size: 16px;
+}
+
+.login {
+    width: 400px;
+    padding: 20px;
+    box-shadow: 0 0 10px #CCC;
+    border-radius: 5px;
+    margin: 50px auto;
+}
+
+label {
+    width: 100%;
+    display: inline-block;
+    margin: 10px 0;
+}
+
+.campo {
+    width: 100%;
+    border-radius: 5px;
+    padding: 5px;
+    border: 1px solid #CCC;
+}
+
+button {
+    margin: 10px 0;
+    background-color: green;
+    color: #FFF;
+    border-radius: 5px;
+    padding: 5px;
+    border: 0;
+}
+
+header {
+    background-color: #CCC;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+header nav {
+    float: right;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline-block;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #999;
+}
+
+header nav ul li a:hover {
+    color: #000;
+}
+
+main {
+    width: 1000px;
+    margin: 20px auto;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #CCC;
+}
+
+footer {
+    background-color: #CCC;
+    padding: 10px 0;
+}
+
+.center {
+    text-align: center;
+}
+
+.btn {
+    background-color: #F00;
+    color: #FFF;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin: 5px;
+    text-decoration: none;
+}
+
+h1, h2, p {
+    margin: 20px;
+}
+
+input[readonly] {
+    background: #f1f1f1;
+}
+
+table {
+    width: 100%;
+}
+
+thead {
+    background-color: #f1f1f1;
+}
+
+td {
+    border: 1px solid #CCC;
+}

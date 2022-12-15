@@ -1,0 +1,64 @@
+/* reset a pagina */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Verdana;
+    line-height: 30px;
+}
+
+header, footer {
+    background-color: #f1f1f1;
+    padding: 10px;
+}
+
+footer {
+    text-align: center;
+}
+
+header nav {
+    float: right;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin: 25px;
+}
+
+header nav ul li a {
+    color: #666;
+    text-decoration: none;
+}
+
+header nav ul li a:hover {
+    color: red;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
+
+.grid .coluna {
+    padding: 10px;
+}
+
+aside {
+    border: 1px solid #666;
+    padding: 10px;
+}
+
+aside ul {
+    margin-left: 25px;
+}
+
+main {
+    width: 1000px;
+    margin: auto;
+}
